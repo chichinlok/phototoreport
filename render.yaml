@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: photo-to-map
+    env: node
+    buildCommand: npm install && npm run build
+    startCommand: npm start
+    envVars:
+      - key: GEMINI_API_KEY
+        sync: false

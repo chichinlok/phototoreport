@@ -1,0 +1,7 @@
+{
+  "name": "photo to map then to word doc",
+  "description": "photos to map ",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
