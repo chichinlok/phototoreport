@@ -1,6 +1,6 @@
 import React, { useState, useRef, useEffect } from 'react';
-import MapViewer from './components/MapViewer';
-import PhotoSidebar from './components/PhotoSidebar';
+import MapViewer from './components/MapViewer.tsx';
+import PhotoSidebar from './components/PhotoSidebar.tsx';
 import { PhotoData, MapBounds, MarkerLayout } from './types';
 import { LucideMenu, LucideX } from 'lucide-react';
 import { generateMapOverlayDoc } from './services/wordService';

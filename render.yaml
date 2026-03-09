@@ -1,9 +1,9 @@
 services:
-  - type: web
+  - type: static
     name: photo-to-map
-    env: node
+    env: static
     buildCommand: npm install && npm run build
-    startCommand: npm start
+    staticPublishPath: ./dist
     envVars:
       - key: GEMINI_API_KEY
         sync: false
